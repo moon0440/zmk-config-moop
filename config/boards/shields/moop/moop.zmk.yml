@@ -1,0 +1,13 @@
+file_format: "1"
+id: moop
+name: Moop
+type: shield
+url: https://github.com/moon0440/zmk-config-moop
+requires: [pro_micro]
+#exposes: [i2c_oled]
+features:
+  - keys
+#  - display
+siblings:
+  - moop_left
+  - moop_right

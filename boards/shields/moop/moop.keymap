@@ -9,7 +9,7 @@
 //#include <dt-bindings/zmk/bt.h>
 
 &mt {
-    flavor = "hold-preferred"
+    flavor = "hold-preferred";
     tapping-term-ms = <100>;
     retro-tap;
 };
@@ -30,12 +30,12 @@
             &kp ESC   &mt LCTRL BACKSPACE        &kp DELETE                &kp RETURN   &kp SPACE   &kp TAB
                         >;
                 };
-//                lower_layer {
+//                number_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+// |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  7   |  8  |  9  |  ;  |
+// |  A  |  S  |  D  |  F  |  G  |     |  0  |  4   |  5  |  6  |  P  |
+// |  Z  |  X  |  C  |  V  |  B  |     |  .  |  1   |  2  |  3  |  /  |
+//             | ESC | BS | DEL |     | ENT | SPC  | TAB |
 //                        bindings = <
 //   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
 //   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans

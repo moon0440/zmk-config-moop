@@ -11,7 +11,6 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I  |  O  |  ;  |
@@ -52,5 +51,5 @@
 //                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
 //                        >;
 //                };
-//        };
+        };
 };

@@ -24,7 +24,7 @@
 //             | ESC | BS | DEL |     | ENT | SPC  | TAB |
             bindings = <
         &kp Q         &kp W        &kp E         &kp R   &kp T                             &kp Y   &kp U   &kp I   &kp O   &kp SEMI
-        &mt LMETA A   &mt LALT S   &mt LCTRL D   &mt LSHFT F   &kp G      &kp H   &mt RSHFT J   &mt RCTRL K   &mt RALT L   &kp P
+        &mt LMETA A   &ht_hp LALT S   &ht_hp LCTRL D   &ht_hp LSHFT F   &kp G      &kp H   &ht_hp RSHFT J   &ht_hp RCTRL K   &ht_hp RALT L   &kp P
         &kp Z         &kp X        &kp C         &kp V   &kp B                             &kp N   &kp M   &kp COMMA   &kp DOT   &kp FSLH
             &kp ESC   &mt LCTRL BACKSPACE        &kp DELETE                &kp RETURN   &kp SPACE   &kp TAB
                         >;

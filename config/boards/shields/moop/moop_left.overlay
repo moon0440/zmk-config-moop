@@ -1,0 +1,11 @@
+#include "moop.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&pro_micro 16 GPIO_ACTIVE_HIGH> // Column 0 from the schematic file
+        , <&pro_micro 17 GPIO_ACTIVE_HIGH> // Column 1 from the schematic file
+        , <&pro_micro 18 GPIO_ACTIVE_HIGH> // Column 2 from the schematic file
+        , <&pro_micro 19 GPIO_ACTIVE_HIGH> // Column 3 from the schematic file
+        , <&pro_micro 20 GPIO_ACTIVE_HIGH> // Column 4 from the schematic file
+        ;
+};

@@ -1,0 +1,16 @@
+if SHIELD_MOOP_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Moop"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MOOP_LEFT || SHIELD_MOOP_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

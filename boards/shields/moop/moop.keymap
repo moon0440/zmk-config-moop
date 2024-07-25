@@ -9,7 +9,8 @@
 //#include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <100>;
+    tapping-term-ms = <50>;
+    retro-tap;
 };
 
 / {
@@ -22,9 +23,9 @@
 // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   |  ,  |  .  |  /  |
 //             | ESC | BS | DEL |     | ENT | SPC  | TAB |
             bindings = <
-      &kp Q &kp W &kp E &kp R &kp T                     &kp Y &kp U &kp I &kp O &kp SEMI
-      &mt LMETA A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G    &kp H &mt RSHFT J &mt RCTRL K RALT &mt L &kp P
-      &kp Z &kp X &kp C &kp V &kp B                     &kp N &kp M &kp COMMA &kp DOT &kp FSLH
+      &kp Q &kp W &kp E &kp R &kp T                           &kp Y &kp U &kp I &kp O &kp SEMI
+      &mt LMETA A &mt LALT S &mt LCTRL D &mt LSHFT F &kp G    &kp H &mt RSHFT J &mt RCTRL K &mt L RALT &kp P
+      &kp Z &kp X &kp C &kp V &kp B                           &kp N &kp M &kp COMMA &kp DOT &kp FSLH
           &kp ESC &mt LCTRL BACKSPACE &kp DELETE              &kp RETURN &kp SPACE &kp TAB
                         >;
                 };

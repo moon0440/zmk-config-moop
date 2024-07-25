@@ -10,8 +10,8 @@
 
 &mt {
     flavor = "hold-preferred";
-    tapping-term-ms = <150>;
-    require-prior-idle-ms = <125>;
+    tapping-term-ms = <250>;
+    require-prior-idle-ms = <200>;
     retro-tap;
 };
 

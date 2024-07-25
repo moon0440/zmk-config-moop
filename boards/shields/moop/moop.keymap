@@ -9,7 +9,7 @@
 //#include <dt-bindings/zmk/bt.h>
 
 &mt {
-    flavor = "hold-preferred";
+    flavor = "tap-preferred";
     tapping-term-ms = <250>;
     require-prior-idle-ms = <200>;
     retro-tap;

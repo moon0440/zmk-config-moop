@@ -15,4 +15,4 @@ jobs:
     needs: generate-timestamp
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      archive_name: moop-firmware-${{ needs.generate-timestamp.get-timestamp.outputs.timestamp }}
+      archive_name: moop-firmware-${{ needs.generate-timestamp.outputs.timestamp }}

@@ -8,9 +8,13 @@ jobs:
     steps:
       - name: Generate Unix Timestamp
         id: get-timestamp
-        run: echo "::set-output name=timestamp::$(date +%s)"
+        run: |
+          echo "timestamp=$(date +%s)" >> $GITHUB_ENV
+        env:
+          timestamp: ${{ env.timestamp }}
 
   build:
+    needs: generate-timestamp
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       archive_name: moop-firmware-${{ needs.generate-timestamp.outputs.timestamp }}

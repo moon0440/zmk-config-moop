@@ -30,11 +30,11 @@
         keymap {
             compatible = "zmk,keymap";
             default_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I  |  O  |  ;  |
-            // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K  |  L  |  P  |
-            // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   |  ,  |  .  |  /  |
-            //             | ESC | BS | DEL |     | ENT | SPC  | TAB |
+                // -----------------------------------------------------------------------------------------
+                // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I  |  O  |  ;  |
+                // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K  |  L  |  P  |
+                // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   |  ,  |  .  |  /  |
+                //             | ESC | BS | DEL |     | ENT | SPC  | TAB |
                 bindings = <
                     &kp Q         &kp W        &kp E         &kp R   &kp T                             &kp Y   &kp U   &kp I   &kp O   &kp SEMI
                     &mt LMETA A   &mt LALT S   &mt LCTRL D   &mt LSHFT F   &kp G      &kp H   &mt RSHFT J   &mt RCTRL K   &mt RALT L   &kp P
@@ -44,11 +44,11 @@
             };
 
             number_pad_layer {
-            // -----------------------------------------------------------------------------------------
-            // |    |    |    |    |    |     |  +  |  7   |  8  |  9  |  -  |
-            // |    |    |    |    |    |     |  0  |  4   |  5  |  6  |  *  |
-            // |    |    |    |    |    |     |  .  |  1   |  2  |  3  |  /  |
-            //      |  |  | (ACTIVATE) |     |  |  |  |
+                // -----------------------------------------------------------------------------------------
+                // |    |    |    |    |    |     |  +  |  7   |  8  |  9  |  -  |
+                // |    |    |    |    |    |     |  0  |  4   |  5  |  6  |  *  |
+                // |    |    |    |    |    |     |  .  |  1   |  2  |  3  |  /  |
+                //      |  |  | (ACTIVATE) |     |  |  |  |
                 bindings = <
                    &trans  &trans  &trans  &trans  &trans     &kp PLUS  &kp N7 &kp N8 &kp N9 &kp MINUS
                    &trans  &trans  &trans  &trans  &trans     &kp N0 &kp N4 &kp  N5 &kp N6  &kp ASTERISK
@@ -58,11 +58,11 @@
                 };
 
             movement_layer {
-            // -----------------------------------------------------------------------------------------
-            // |    |    |    |    |   |     |        |  PRINTSCREEN  |            |           |    |
-            // |    |    |    |    |   |     |  LEFT  |  RIGHT        |  DOWN      |  UP       |    |
-            // |    |    |    |    |   |     |  HOME  |  END          |  PAGE_DOWN |  PAGE_UP  |    |
-            //      |  | (ACTIVATE) |  |     |        |               |            |
+                // -----------------------------------------------------------------------------------------
+                // |    |    |    |    |   |     |        |  PRINTSCREEN  |            |           |    |
+                // |    |    |    |    |   |     |  LEFT  |  RIGHT        |  DOWN      |  UP       |    |
+                // |    |    |    |    |   |     |  HOME  |  END          |  PAGE_DOWN |  PAGE_UP  |    |
+                //      |  | (ACTIVATE) |  |     |        |               |            |
                 bindings = <
                    &trans  &trans  &trans  &trans  &trans     &trans  &kp PRINTSCREEN  &trans  &trans  &trans
                    &trans  &trans  &trans  &trans  &trans     &kp LEFT &kp RIGHT &kp DOWN &kp UP &trans

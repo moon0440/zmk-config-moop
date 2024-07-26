@@ -9,7 +9,7 @@ jobs:
       - name: Generate Unix Timestamp
         id: get-timestamp
         run: |
-          echo "timestamp=$(date +%s)" >> $GITHUB_OUTPUT
+          echo "timestamp=$(date +%s)" >> "$GITHUB_OUTPUT"
 
   build:
     needs: generate-timestamp
